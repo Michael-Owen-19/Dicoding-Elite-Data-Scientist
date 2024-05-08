@@ -6,13 +6,13 @@
 
 - Memberikan dokumentasi menggunakan **text cell** pada notebook (.ipynb) untuk menjelaskan **setiap tahapan analisis data**.
 - Membuat visualisasi data yang baik dan efektif
-- File Notebook masih belum bisa dijalankan karrena masih terdapat kesalahan dalam pemanggilan file pada [dashboard.py](http://dashboard.py) karena penamaan yang tidak disesuaikan dengan foldering file.
-- Perhatikan penggunaan visualisasi data pada project yang kamu kerjakan, penggunaan visualisasi data yang terlalu banyak dapat memecahkan fokus dan pesan yang ingin disampaikan melalui visualisasi data yang digunakan. Untuk menghindari hal tersbut kamu bisa menghapus penggunaan visualisasi data yang tidak diperlukan dan fokus pada visualisasi utama yang ingin disampaikan.
+- File Notebook masih belum bisa dijalankan karrena masih terdapat kesalahan dalam pemanggilan file pada dashboard.py karena penamaan yang tidak disesuaikan dengan foldering file.
+- Perhatikan penggunaan visualisasi data pada project yang kamu kerjakan, penggunaan visualisasi data yang terlalu banyak dapat memecahkan fokus dan pesan yang ingin disampaikan melalui visualisasi data yang digunakan. Untuk menghindari hal tersebut kamu bisa menghapus penggunaan visualisasi data yang tidak diperlukan dan fokus pada visualisasi utama yang ingin disampaikan.
 
 Sebagai tambahan kamu bisa menerapkan saran berikut.
 
 - Deploy dashboard ke dalam **streamlit cloud**.
-- **Menerapkan teknik analisis lanjutan** seperti *RFM analysis*, *geoanalysis*, *clustering*, dll. (Tanpa menggunakan algoritma machine learning).
+- **Menerapkan teknik analisis lanjutan** seperti *RFM analysis*, *geoanalysis*, *clustering*, dll. (Tanpa menggunakan algoritme machine learning).
 
 Kedepannya kamu bisa mencoba mengembangkan kemampuanmu dengan lebih explore lagi mengenai streamlit. Kamu bisa mempelajari : **[Streamlit cheat sheet](https://docs.streamlit.io/library/cheatsheet)**.
 
@@ -36,5 +36,5 @@ hour_df = pd.read_csv("data/hour.csv")
 
 ![Screenshot 2024-05-08 221406.png](Image/Screenshot_2024-05-08_221406.png)
 
-> Perhatikan directory data yang digunakan, file dashboard dan file lainnya terletak pada folder yang sama. Kamu perlu menambahkan perintah cd dashboard pada readme karena file [dashboard.py](http://dashboard.py) terlrtak di dalam folder dashboard, kemudian perbaiki path directory yang masih salah pada dashboard.py.
+> Perhatikan directory data yang digunakan, file dashboard dan file lainnya terletak pada folder yang sama. Kamu perlu menambahkan perintah cd dashboard pada readme karena file [dashboard.py](http://dashboard.py) terletak di dalam folder dashboard, kemudian perbaiki path directory yang masih salah pada dashboard.py.
 >
